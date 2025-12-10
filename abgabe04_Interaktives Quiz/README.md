@@ -1,24 +1,58 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/CkjCAL1A)
-Ziel:
+# Abgabe 4 – Interaktives Quiz
 
-Die Studierenden erstellen ein Quiz mit Fragen, das Benutzereingaben verarbeitet und am Ende die Punktzahl berechnet.
+In diesem Projekt wurde ein kleines interaktives Quiz mit HTML, CSS und JavaScript erstellt.
+Die Fragen werden dynamisch erzeugt, die Benutzerantworten ausgewertet und am Ende wird die Punktzahl berechnet.
 
-Die Filestruktur ist bereits vorgegeben.
+Der Fokus liegt auf DOM-Manipulation, Events, Arrays, Radio-Buttons und der dynamischen Ausgabe von Ergebnissen.
 
-Schritt 1: HTML-Grundgerüst erstellen
-- Erstelle den Bereich für die Quizfragen, den Button zum Überprüfen der Antworten und den Ergebnisbereich
+## HTML-Grundstruktur
 
-Schritt 2: Fragen und Antworten in Arrays speichern
-- Nutze ein Array für die Fragen und Antworten (im JavaScript ist bereits ein Array gegeben, erweitere dieses um mindestens 3 Fragen)
+Bereich für die Quizfragen
 
+Button zum Überprüfen der Antworten
 
-Schritt 3: Quizfragen dynamisch generieren
-- Nutze forEach, um die Fragen und Antworten als HTML-Radio-Buttons zu generieren
+Ergebnisbereich zur Ausgabe der Punktzahl
 
-Schritt 4: Antworten prüfen
-- Verwenden Sie einen onClick Event Listener, um die Antworten zu prüfen. Dazu musst du am Ende deines Quiz einen Button erstellen auf dem du den Event Listener setzt um mit JavaScript alle selektierten Antworten auszulesen und überprüfen zu können.
-- Zeige dem User wie viele Fragen er richtig beantwortet hat.
-- Advanced: Zeige dem User welche Fragen er falsch beantwortet hat
+Struktur übersichtlich und klar getrennt
 
-Schritt 5: Styling hinzufügen
-- Füge CSS hinzu, um das Quiz ansprechend zu gestalten
+## Fragen und Antworten in Arrays
+
+Fragen und Antworten werden im JavaScript-Array gespeichert
+
+Das bestehende Array wurde um mindestens 3 zusätzliche Fragen erweitert
+
+Saubere Trennung von Daten und Darstellung
+
+## Dynamische Erstellung der Quizfragen
+
+Die Fragen werden mit forEach() automatisch ins HTML gerendert
+
+Jede Frage erhält mehrere Radio-Buttons als Antwortmöglichkeiten
+
+DOM-Elemente werden per JavaScript erzeugt und eingefügt
+
+## Überprüfung der Antworten
+
+onClick Event Listener auf dem „Überprüfen“-Button
+
+Alle ausgewählten Antworten werden gesammelt und überprüft
+
+Ausgabe der Punktzahl als Text
+
+Optional: Anzeige der falsch beantworteten Fragen
+
+## Styling
+
+Grundlegendes Styling mit CSS
+
+Lesbare Struktur
+
+Visuelle Hervorhebung von Fragen und Buttons
+
+Verwendete Technologien
+
+HTML5
+
+CSS3
+
+JavaScript (DOM, Arrays, Events, Dynamik)
