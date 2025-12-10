@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Event-Webseite</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Header und Navigation --------------------------------->
+<header>
+    <h1>Casting für den Musikvideo-Star</h1>
+    <nav>
+        <ul>
+            <li><a href="#einleitung">Einleitung</a></li>
+            <li><a href="#anforderungen">Anforderungen</a></li>
+            <li><a href="#zeitplan">Zeitplan</a></li>
+            <li><a href="#anmeldung">Anmeldung</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Artikel: Einleitung ----------------------------------->
+<article id="einleitung">
+    <!--- <h2>Einleitung</h2> --->
+    <p>
+        <span>Willkommen zu unserem Tanz-Casting für das Musikvideo!</span>
+        <span>Wir suchen leidenschaftliche Tänzerinnen und Tänzer,</span>
+        <span>die Teil dieses aufregenden Projekts sein möchten.</span>
+        <span>Zeigen Sie uns Ihre Kreativität und Energie auf</span>
+        <span>der Bühne!</span>
+    </p>
+</article>
+
+<!-- Artikel: Anforderungen --------------------------------->
+<article id="anforderungen">
+    <h2>Casting-Anforderungen</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Kriterium</th>
+            <th>Details</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Alter</td>
+            <td>18-35 Jahre</td>
+        </tr>
+        <tr>
+            <td>Erfahrung</td>
+            <td>Grundkenntnisse im Tanzen erforderlich</td>
+        </tr>
+        <tr>
+            <td>Kleidung</td>
+            <td>Eng anliegende Tanzkleidung</td>
+        </tr>
+        <tr>
+            <td>Bewerbungsschluss</td>
+            <td>31. Dezember 2024</td>
+        </tr>
+        </tbody>
+    </table>
+</article>
+
+<!-- Artikel: Zeitplan --------------------------------------------->
+<article id="zeitplan">
+    <h2>Zeitplan</h2>
+    <ul class="zeitplan-content">
+        <li><strong>09:00 Uhr:</strong> Anmeldung und Begrüßung der Teilnehmer</li>
+        <li><strong>10:00 Uhr:</strong> Einführung und kurze Proben</li>
+        <li><strong>11:30 Uhr:</strong> Erste Casting-Runde (Tanzperformance)</li>
+        <li><strong>13:00 Uhr:</strong> Mittagspause</li>
+        <li><strong>14:00 Uhr:</strong> Zweite Casting-Runde (Improvisationstanz)</li>
+        <li><strong>16:00 Uhr:</strong> Bekanntgabe der Finalisten</li>
+        <li><strong>17:00 Uhr:</strong> Abschluss und Verabschiedung</li>
+    </ul>
+</article>
+
+
+<!-- Artikel: Anmeldung --------------------------------------------->
+<article id="anmeldung">
+    <div class="left-column">
+        <h2>Anmeldung</h2>
+        <!-- Formular--------------------------------------------->
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Warum bist du perfekt für dieses Musikvideo?</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Jetzt bewerben</button>
+        </form>
+    </div>
+    <!-- Video--------------------------------------------->
+    <div class="right-column">
+        <div class="video-container">
+            <h3>Trailer</h3>
+            <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/hAx6mYeC6pY"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <!-- Audio --------------------------------------------->
+        <div class="audio-container">
+            <h3>Hörspiel</h3>
+            <audio controls>
+                <source src="assets/audio.mp3" type="audio/mpeg">
+                Dein Browser unterstützt kein HTML5-Audio.
+            </audio>
+        </div>
+    </div>
+</article>
+
+
+<!-- Artikel: Über das Event -->
+<article id="über-das-event">
+    <h2>Über das Event</h2>
+    <p>Unser Event ist einzigartig und bietet Tänzerinnen und Tänzern eine großartige Gelegenheit,
+        ihr Talent zu zeigen. </p>
+    <p> Seien Sie dabei und lassen Sie sich von der Energie und Kreativität inspirieren!</p>
+</article>
+
+<!-- Footer -->
+<footer id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Adresse: Hauptstraße 123, 12345 Musterstadt</p>
+    <p>E-Mail: casting@musikvideo.de</p>
+    <p>Telefon: +49 123 456 789</p>
+</footer>
+
+</body>
+</html>
