@@ -4,64 +4,67 @@ Dieses Projekt wurde im Rahmen des Kurses Creativ Coding im Web entwickelt.
 Ziel war es, eine einfache, aber gut strukturierte und visuell ansprechende Webseite mit HTML und CSS zu erstellen.
 Die Seite nutzt semantische Elemente, ein konsistentes Farbschema, Typografie, Flexbox und grundlegende Selektoren sowie Pseudoklassen.
 
-## Anforderungen und Umsetzung
-1. Semantische HTML-Struktur
+## Semantische HTML-Struktur
 
-Verwendung von <!DOCTYPE html>, <header>, <main>, <footer>, <section>, <article>
+Verwendung von semantischen Elementen wie header, main, footer, section und article
 
-Logische Strukturierung aller Inhalte
+Klare und logische Gliederung der Seite
 
-2. Headlines und Navigation
+Aufbau mit Standardstruktur (<!DOCTYPE html>, html, head, body)
 
-Sinnvolle Hierarchie der Überschriften (h1–h6)
+## Headlines und Navigation
 
-Navigation mit Links zu Bereichen wie Über uns, Produkte und Kontakt
+Sinnvolle Überschriften-Hierarchie (h1 bis h6)
 
-3. Bilder einbinden
+Navigation mit Links zu Bereichen wie Über uns, Produkte, Kontakt
 
-Bilder im eigenen Ordner images/
+##  Bilder
 
-Produkt- oder thematisch passende Bilder integriert
+Bilder im Ordner images/ gespeichert
 
-4. Listen
+Thematisch passende Produkt- oder Fabrikbilder eingebettet
 
-Sortierte Liste (<ol>) z. B. für Produktionsschritte oder Zutaten
+##  Listen
 
-Unsortierte Liste (<ul>) z. B. für Produkte oder Kategorien
+Sortierte Liste (ol) z. B. für Produktionsschritte
 
-5. Externes CSS-Stylesheet
+Unsortierte Liste (ul) z. B. für Produktkategorien
 
-Gestaltung ausgelagert in styles/style.css
+##  Externes CSS-Stylesheet
 
-Strukturierte und kommentierte CSS-Datei
+Alle Styles in styles/style.css
 
-6. Selektoren, Pseudoklassen & Pseudoelemente
+Strukturierter, kommentierter Code
 
-Universalselektor, Typselektoren und Klassenselektoren
+Einheitliches und einfach erweiterbares Design
 
-Kombinierte Selektoren wie .nav li oder .container > p
+##  Selektoren, Pseudoklassen & Pseudoelemente
 
-::before, ::after und ::first-letter verwendet
+Universalselektor, Typselektoren, Klassenselektoren
 
-Hover-Effekte für Navigationselemente
+Kombinierte Selektoren wie .nav li oder .wrapper > p
 
-7. Typografie und Abstände
+Pseudoelemente: ::before, ::after, ::first-letter
+
+Hover-Effekte für interaktive Elemente
+
+##  Typografie und Abstände
 
 Zwei Google Fonts eingebunden
 
-Nutzung von font-size, font-weight, border, border-radius
+Gestaltung mit font-size, font-weight, border, border-radius
 
 Strukturierung durch sinnvolle margin- und padding-Werte
 
-8. Layout
+##  Layout
 
-Flexbox zur Anordnung von Navigation und Produktbereichen
+Flexbox für Navigation und Produktübersicht
 
-object-fit zur gleichmäßigen Bilddarstellung
+object-fit für saubere Bilddarstellung
 
-Farbpalette am Farbrad ausgewählt
+Farbpalette mithilfe eines Farbrads gewählt
 
-Farbwerte im CSS als Kommentare dokumentiert
+Verwendete Farbwerte im CSS als Kommentare dokumentiert
 
 Verwendete Technologien
 
