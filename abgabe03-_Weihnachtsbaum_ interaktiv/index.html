@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fröhliche Weihnachten!</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<h1>Fröhliche Weihnachten!</h1>
+
+<!-- Botón para encender/apagar las luces -->
+<button id="toggleLights">Lichter ein/aus</button>
+
+<!-- Menú desplegable para cambiar el color de las luces -->
+<label for="lightColor">Farbe der Lichter:</label>
+<select id="lightColor">
+    <option value="yellow">Gelb</option>
+    <option value="blue">Blau</option>
+    <option value="red">Rot</option>
+</select>
+
+<!-- Contenedor para el árbol -->
+<div class="treeContainer">
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+</div>
+
+
+<!-- Contenedor para la nieve -->
+<div id="snowContainer"></div>
+<script src="baum.js"></script>
+</body>
+</html>
