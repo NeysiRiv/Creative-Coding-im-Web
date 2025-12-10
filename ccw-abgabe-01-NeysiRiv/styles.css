@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fdf2e9; /* Allgemeiner Hintergrund für die Webseite (hellbeige) */
+
+    h1, h2 {
+        font-family:'Bonheur Royale', cursive;
+        font-size: 5em;
+    }
+
+}
+/* Aqui tengo el Header */
+header {
+    background-color: #f8c5a1;  /* Hintergrundfarbe des Headers (Pfirsichfarben) */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #d9a066;  /* Untere Randlinie des Headers (Braunton) */
+}
+
+header h1::before {
+    content: "🍫 ";
+    font-size: 1.5em;
+    margin-right: 5px;
+    color: #4a2c2a; /* Farbe des Header-Titels (Dunkelbraun) */
+    text-align: center;
+}
+
+header h1::after {
+    content: " 🍫";
+    font-size: 1.5em;
+    margin-left: 5px;
+}
+
+/* Aqui tengo el Nav */
+
+nav {
+     background-color: #f6d1b8; /* Hintergrundfarbe der Navigationsleiste (helles Beige-Rosa) */
+     padding: 10px 0;
+     border-top: 1px solid #d9a066; /* Obere Randlinie der Navigationsleiste (Braunton) */
+               }
+
+  .nav_list {
+      list-style: none;
+      margin: 2px;
+      padding: 2px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .nav_list li {
+      margin: 0 50px;
+     }
+
+  .nav_list a {
+      text-decoration: none;
+      color: #4a2c2a; /* Farbe des Textes der Links (Dunkelbraun) */
+      font-size: 1.7em;
+      font-family: 'Georgia', serif;
+      padding: 10px 50px;
+      transition: color 0.3s, background-color 0.3s;
+  }
+
+  .nav_list a:hover {
+      background-color: #e8ac85; /* Hintergrundfarbe der Links beim Hover (Pfirsichfarben) */
+      color: white; /* Textfarbe der Links beim Hover (Weiß) */
+      border-radius: 5px;
+  }
+
+  /* Aqui tengo el articulo 1 Über uns*/
+
+.Über_uns{
+    max-width: 100%;
+    padding: 20px 200px;
+    background-color: #7A5442; /* Hintergrundfarbe des Artikels (Dunkelbraun) */
+    color: #e9d8c3;  /* Textfarbe des Artikels (Helles Beige) */
+    font-family: 'Georgia', serif;
+    text-align: center;
+    margin-top: -20px;
+ }
+
+.highlight{
+    color: #e8ac85;
+    }
+
+.Über_uns h2 {
+  color: #e9d8c3;  /* Farbe der Überschrift (Helles Beige) */
+  margin-bottom: 15px;
+}
+
+.Über_uns p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 20px 0;
+
+}
+/* Aqui tengo el articulo News y sus secciones */
+.news{
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(207, 189, 181, 0.81);  /* Hintergrundfarbe News (Beige mit Transparenz) */
+
+}
+.news h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4a2c2a;  /* Farbe der News-Überschrift h2 (Dunkelbraun) */
+}
+
+.news section{
+    flex: 1 1 calc(33.333% - 40px); ;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 100px;
+  }
+
+.news img{
+    width: 150%;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+.news h3 {
+   margin: 15px 0;
+    color: #4a2c2a; /* Farbe der News-Überschrift h3 (Dunkelbraun) */
+}
+
+.news p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #4a2c2a; /* Farbe des News-Textes (Dunkelbraun) */
+    margin: 30px 10px;
+    text-align: justify;
+}
+
+/* Aqui tengo el articulo Unser Team y sus secciones */
+
+.team{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #504038;  /* Hintergrundfarbe des Team class (Dunkelbraun) */
+    padding: 20px;
+}
+
+.team h2{
+    text-align: center;
+    margin: 15px 0;
+    color: #e9d8c3; /* Farbe der Team-Überschrift (Helles Beige) */
+    width: 100%;
+}
+
+.team section{
+    flex: 1 1 calc(33.333% - 40px); ;
+    max-width: 300px;
+    text-align: center;
+}
+
+.team img{
+    width: 150%;
+    max-width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    object-position: center top;
+}
+.team h3, h4{
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #e9d8c3; /* Farbe der Team-Überschrift (Helles Beige) */
+}
+.team p{
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #e9d8c3; /* Farbe der Team-Überschrift (Helles Beige) */
+    margin: 0 10px;
+    text-align: justify;
+}
+
+/* Aqui tengo el articulo Proceso de creacion de la torta */
+
+.erstellungsprozess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #7A5442; /* Hintergrundfarbe (dunkelbraun) */
+
+}
+
+.erstellungsprozess h2{
+    text-align: center;
+    margin: 0 10px;
+    color: #e9d8c3; /* Farbe der erstellungsprozess -Überschrift (Helles Beige) */
+}
+.erstellungsprozess ol {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.erstellungsprozess li {
+    flex: 1 1 18%;
+    margin: 0 10px;
+}
+
+.erstellungsprozess img{
+    width: 300%;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 0;
+    margin-bottom: 15px;
+    object-position: center top;
+
+}
+
+.erstellungsprozess h3{
+    font-size: 1.5em;
+    color: #e9d8c3; /* Farbe der erstellungsprozess-Überschrift (Helles Beige) */
+    margin: 0 10px;
+    text-align: -moz-center;
+}
+
+.footer{
+    color: #ffb897;
+    width: 100%;
+    }
+
+.footer p{
+    font-size: 1.5em;
+    color: #7A5442; /* Überschrift (Helles Beige) */
+    text-align: left;
+}
